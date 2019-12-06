@@ -9,8 +9,11 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Saulius</title>
-    <link href="templates/<?=activeTemplate;?>/css/bootstrap.min.css" rel="stylesheet">
-    <link href="templates/<?=activeTemplate;?>/css/style.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="template/<?=activeTemplate;?>/css/bootstrap.css">
+    <script type="text/javascript" src="template/<?=activeTemplate;?>/js/jquery.slim.js"></script>
+    <script type="text/javascript" src="template/<?=activeTemplate;?>/js/bootstrap.min.js"></script>
+    <link href="template/<?=activeTemplate;?>/css/bootstrap.min.css" rel="stylesheet">
+    <link href="template/<?=activeTemplate;?>/css/style.css" rel="stylesheet">
 </head>
 <body>
     <div class="d-flex" id="wrapper">
