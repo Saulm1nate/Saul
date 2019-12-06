@@ -6,10 +6,19 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Saulius</title>
+    <link href="templates/<?=activeTemplate;?>/css/bootstrap.min.css" rel="stylesheet">
+    <link href="templates/<?=activeTemplate;?>/css/style.css" rel="stylesheet">
 </head>
 <body>
+    <div class="d-flex" id="wrapper">
+        <div class="bg-light border-right" id=sidebar-wrapper">
+            <div class="sidebar-heading"><?=$siteName;?></div>
+            <div class="li st-group list-group-flush"></div>
+        </div>
+    </div>
 <header>
     <h1>Filmu aplikacija</h1>
 </header>
